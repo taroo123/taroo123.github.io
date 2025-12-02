@@ -33,7 +33,7 @@
         }
         .bot-frame {
             width: 100%;
-            height: 600px;
+            height: 600px;   /* 固定高比較保險 */
             border: none;
             border-radius: 8px;
         }
@@ -54,8 +54,12 @@
     <main>
         <div class="chat-container">
             <div class="chat-title">有問題可以直接問我 👇</div>
-            
-<!DOCTYPE html><html><body><iframe src="https://copilotstudio.microsoft.com/environments/Default-2b20eccf-1c1e-43ce-9340-0edfe3a2266f/bots/crb9b_agent8cEjZS/webchat?__version__=2" frameborder="0" style="width: 100%; height: 100%;"></iframe></body></html>
+
+            <!-- 只保留 iframe 這一段 -->
+            <iframe
+              src="https://copilotstudio.microsoft.com/environments/Default-2b20eccf-1c1e-43ce-9340-0edfe3a2266f/bots/crb9b_agent8cEjZS/webchat?__version__=2"
+              class="bot-frame">
+            </iframe>
 
         </div>
     </main>
